@@ -5,7 +5,7 @@ import google.generativeai as genai
 from werkzeug.utils import secure_filename
 
 # 🔐 Set your Gemini API key here or via environment variables
-GOOGLE_API_KEY = "AIzaSyCNAOwucDS-4FAOWpKzvZVh9k_69R022To"
+GOOGLE_API_KEY = "AIzaSyCNAOwucDS-4FAOW*************" # For Security Purpose We can't Show, When You run Then you Change Your Own API Key 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 app = Flask(__name__)
